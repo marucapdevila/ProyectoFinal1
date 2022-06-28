@@ -28,6 +28,11 @@
   
    /**index**/
  
+  
+   .row
+   {
+    align-items: center;
+   }
   .jardinn_card_areas {
     text-align: center;
     width: 15rem;
@@ -88,6 +93,7 @@
     list-style-type: none;
     font-family: 'Arima Madurai', cursive;
     font-size: 15px;
+    align-items: center;
   }
   
  
@@ -200,6 +206,7 @@
   
   p {
     text-align: center;
+    padding: 5%;
   }
   
   
@@ -216,12 +223,23 @@
     color: cadetblue;
   }
   
+  /**contacto**/
+
+  .contEmail {
+    padding: 10%;
+    
+  }
+
+  .contMens {
+    padding: 10%;
+  }
+
   /**footer**/
   
   footer {
     background-color: cadetblue;
-  }
   
+  }
   
   .contenedor-info-footer {
     height: auto;
@@ -229,34 +247,29 @@
     width: 100%;
     display: flex;
     padding-bottom: 2%;
-    justify-content: space-around;
+    justify-content: space-around;}
+  
+    .columna {
+      width: 30%;
+      padding: 10px;
+      text-align: center;
   }
-  
-  
-  .columna {
-    width: 30%;
-    padding: 10px;
-    text-align: center;
-  }
-  
   
   .redes-sociales {
-    font-size: 1.2rem;
-    padding: 8px 20px;
-    display: flex;
-    justify-content: center;
-    gap: 6%;
+      font-size: 1.2rem;
+      padding: 8px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 6%;
   }
   
- 
   .copy {
-    text-align: center;
-    font-size: 1rem;
-    padding: 5px;
+      text-align: center;
+      font-size: 1rem;
+      padding: 5px;
   }
   
- 
-  .row {
+  .row{
     margin: 0;
   }
   
