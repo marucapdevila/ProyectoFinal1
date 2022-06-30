@@ -225,15 +225,35 @@
   
   /**contacto**/
 
-  .contEmail {
-    padding: 10%;
+  .form{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5en;
+  }
+
+  .form__container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+  }
+  
+  .form__title {
+    text-align: center;
+    margin-bottom: .4em;
+
+  }
+
+  .form__input--message{
+    resize: none;
+  }
+
+  .form__cta{
     
   }
-
-  .contMens {
-    padding: 10%;
-  }
-
   /**footer**/
   
   footer {

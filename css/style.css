@@ -339,22 +339,41 @@ h4 {
 
 /**contacto**/
 /* line 228, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
-.contEmail {
-  padding: 10%;
+.form {
+  background-color: #fff;
+  width: 90%;
+  margin: auto;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5en;
 }
 
-/* line 233, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
-.contMens {
-  padding: 10%;
+/* line 237, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
+.form__container {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+
+/* line 244, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
+.form__title {
+  text-align: center;
+  margin-bottom: .4em;
+}
+
+/* line 250, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
+.form__input--message {
+  resize: none;
 }
 
 /**footer**/
-/* line 239, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
+/* line 255, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
 footer {
   background-color: cadetblue;
 }
 
-/* line 244, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
+/* line 260, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
 .contenedor-info-footer {
   height: auto;
   padding: 10px;
@@ -364,14 +383,14 @@ footer {
   justify-content: space-around;
 }
 
-/* line 254, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
+/* line 268, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
 .columna {
   width: 30%;
   padding: 10px;
   text-align: center;
 }
 
-/* line 261, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
+/* line 274, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
 .redes-sociales {
   font-size: 1.2rem;
   padding: 8px 20px;
@@ -380,20 +399,20 @@ footer {
   gap: 6%;
 }
 
-/* line 270, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
+/* line 282, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
 .copy {
   text-align: center;
   font-size: 1rem;
   padding: 5px;
 }
 
-/* line 277, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
+/* line 288, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
 .row {
   margin: 0;
 }
 
 @media (max-width: 768px) {
-  /* line 283, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
+  /* line 294, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
   .contenedor-info-footer {
     flex-direction: column;
     align-items: center;
@@ -401,14 +420,14 @@ footer {
 }
 
 @media (max-width: 768px) {
-  /* line 291, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
+  /* line 302, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
   .contenedor-info-footer {
     font-size: 10px;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 298, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
+  /* line 309, ../../../OneDrive/Escritorio/proyecto8/scss/style.scss */
   .titulo-info-footer {
     font-size: 14px;
   }
